@@ -33,9 +33,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  double _width=50,_hight=50,_radias=50;
+  double _width=100,_hight=50,_radias=50;
   int _color=150;
-      
   void _incrementCounter() {
     setState(() {
       Random random=new Random();
